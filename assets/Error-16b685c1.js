@@ -1,0 +1,1 @@
+import{j as r}from"./index-27dd64a2.js";import{s}from"./Messages.module-4e921b99.js";const t=()=>r.jsxs("p",{className:s.empty,children:[r.jsx("strong",{children:"LO SENTIMOS"}),"Hemos tenido un error ..."]});export{t as default};
