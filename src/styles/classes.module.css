@@ -1,0 +1,8 @@
+.microTitle {
+    display: block;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--gray-color);
+    margin-bottom: 1rem;
+}

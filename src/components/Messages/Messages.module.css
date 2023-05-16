@@ -1,0 +1,41 @@
+.empty {
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon {
+    font-size: 2rem;
+    color: var(--gray-color);
+    font-size: 36px !important;
+    margin-bottom: 0.5rem;
+}
+
+.loading {
+    animation: loading linear 1s infinite;
+}
+
+@keyframes loading {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.subTitle {
+    color: var(--gray-color);
+    font-size: 1.05rem;
+}
+.subTitle strong {
+    color: var(--text-color);
+}
+
+@media (max-width: 600px) {
+    .subTitle {
+        font-size: 1rem;
+    }
+  }

@@ -1,0 +1,55 @@
+.app {
+    width: 100%;
+    max-width: 30rem;
+    height: 45rem;
+    border-radius: 2rem;
+    box-shadow: 0 0.3rem 1.2rem rgba(0,0,0,.1);
+    margin: auto;
+    padding: 2rem;
+    background-color: var(--bg-app-color);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.35rem;
+}
+
+::placeholder {
+    color: var(--gray-color);
+}
+
+.byMe {
+    margin-top: auto;
+    color: var(--gray-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.byMe a {
+    flex: none;
+    color: var(--gray-color);
+    text-decoration: underline;
+    transition: color ease .25s;
+}
+.byMe a:hover {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .app {
+        padding: 1.25rem;
+        border-radius: 1.25rem;
+        gap: 1.25rem;
+        height: 100%;
+    }
+    .title {
+        font-size: 1.5rem;
+        margin-bottom: 0.15rem;
+    }
+}

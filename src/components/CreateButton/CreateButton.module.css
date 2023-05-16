@@ -1,0 +1,69 @@
+.wrapper {
+    width: 6rem;
+    height: 6rem;
+    border-top-left-radius: 50%;
+    position: absolute;
+    z-index: 5;
+    bottom: 0.5rem;
+    right: 1rem;
+    background-color: var(--bg-app-color);
+}
+.button {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: var(--blue-color);
+    box-shadow: 0 0.4rem 0.8rem rgba(83, 97, 254, 0.4);
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    bottom: 2rem;
+    right: 2rem;
+    transition: all ease .25s;
+}
+.button:hover {
+    transform: translate(0, -0.25rem);
+    box-shadow: 0 0.5rem 0.9rem rgba(83, 97, 254, 0.5);
+}
+.button.active {
+    transform: rotate(-45deg);
+}
+.button.active:hover {
+    transform: translate(0, -0.25rem) rotate(-45deg);
+    box-shadow: 0 0.5rem 0.9rem rgba(83, 97, 254, 0.5);
+}
+.button::before, 
+.button::after {
+    content: '';
+    display: block;
+    width: 42%;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+.button::after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+@media (max-width: 600px) {
+    .button {
+        bottom: 0.75rem;
+        right: 0.75rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .button::before, 
+    .button::after {
+        height: 0.35rem;
+    }
+    .wrapper {
+        bottom: 0.75rem;
+        right: 0.75rem;
+        width: 4rem;
+        height: 4rem;
+    }
+}
