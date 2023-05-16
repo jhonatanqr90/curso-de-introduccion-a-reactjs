@@ -1,0 +1,1 @@
+import{r as e,T as a,j as t}from"./index-eedac25f.js";import{s as r}from"./Messages.module-4e921b99.js";const n=()=>{const{completed_todos:o,total_todos:s}=e.useContext(a);return t.jsxs("p",{className:r.subTitle,children:["Has completado ",t.jsx("strong",{children:o})," de ",t.jsx("strong",{children:s})," ",s>1?"tareas":"tarea"]})};export{n as default};

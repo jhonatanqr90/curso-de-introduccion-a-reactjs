@@ -1,1 +1,0 @@
-import{j as s}from"./index-e1af3e18.js";import{s as r}from"./Messages.module-4e921b99.js";const t=()=>s.jsxs("p",{className:r.empty,children:[s.jsx("span",{className:`material-symbols-outlined ${r.icon}`,children:"hourglass_disabled"}),s.jsx("strong",{children:"SIN TAREAS"}),"Crea tu primera tarea"]});export{t as default};

@@ -1,1 +1,0 @@
-import{j as s}from"./index-e1af3e18.js";import{s as a}from"./Messages.module-4e921b99.js";const t=()=>s.jsxs("p",{className:a.empty,children:[s.jsx("span",{className:`material-symbols-outlined ${a.icon} ${a.loading}`,children:"refresh"}),s.jsx("strong",{children:"UN MOMENTO"}),"Estamos cargando tus tareas ..."]});export{t as default};
